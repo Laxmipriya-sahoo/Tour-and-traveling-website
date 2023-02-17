@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tour and traveling website</title>
+	<link rel="stylesheet" type="text/css" href="pro1.css">
+	<script src="https://kit.fontawesome.com/293b2f5357.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#icon').click(function(){
+			
+				$('#ul').toggleClass('');
+			});
+
+		});
+	</script>
+
+</head>
+<body>
+<nav class="navbar">
+	<label class="logo">ADVENTURE</label>
+	<ul class="nav-links">
+				<li class="active"><a href="#">Home</a></li> 
+                <li class="active"><a href="#">Tours</a></li>
+                <li class="active"><a href="#">Explore</a></li>
+                <li class="active"><a href="#">About</a></li>
+                <li class="active"><a href="#">Contact</a></li>
+	</ul>
+	<label id="icon">
+		<i class="fa-solid fa-bars"></i>
+	</label>
+</nav>
+
+
+ <center> <header><br><br><br><br><br><br><br>
+            <div class="header"></div>
+            <h2>Explore the colourful world</h2>
+            <div class="line"></div><br>
+            <h1>A WONDERFUL GIFT</h1>
+            
+            <a href="#" class="ctn">Learn more</a>
+        </header></center>
+		
+        <!-- event -->
+        <section class="events">
+        	<div class="title">
+				<h1>UPCOMING EVENTS</h1>
+				<center><div class="line"> </div></center>
+			
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img14.jpg" alt="">
+					<h2><b>Everest Camp trek</b></h2>
+					<p><b>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point.</b></p>
+					<a href="#" class="ctn">Learn more</a>
+				</div>
+				<div class="col">
+					<img src="./img13.jpg" alt="">
+					<h2><b>Working Holidays</b></h2>
+					<p><b>A working holidays is a cultural exchange concept which allowes you to work abrode on a aspecial ,government issued 'working holidays visa' you will earn a local income to funds your travel.</b></p>
+					<a href="#" class="ctn">Learn more</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img src="./img12.jpg" alt="">
+					<h2><b>Everest Camp trek</b></h2>
+					<p><b>Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point.</b></p>
+					<a href="#" class="ctn">Learn more</a>
+				</div>
+				<div class="col">
+					<img src="./img15.jpg" alt="">
+					<h2><b>Working Holidays</b></h2>
+					<p><b>A working holidays is a cultural exchange concept which allowes you to work abrode on a aspecial ,government issued 'working holidays visa' you will earn a local income to funds your travel.</b></p>
+					<a href="#" class="ctn">Learn more</a>
+				</div>
+			</div>
+        </section>
+		<section class="explore">
+			<div class="explore-content"><h1><i>EXPLPRE THE WORLD</i></h1>
+				<div class="line"></div><br><br>
+				<P><b><i>Explore the world in your way Create memories that you won't forget You only live once' so don't weast your time don't weast your time  take a risk, go to outside Travel till you can't no more in your way,you will find your inner naked soul.....</i></b></P>
+				</P>
+				<a href="#" class="ctn">Learn more</a></div>
+			
+		</section>
+		<section class="tour">
+			<div class="row">
+				<div class="col content-col">
+					<h1>UPCOMING TOURS & DESTINATION</h1>
+					<div class="line"></div>
+					<P><b>All our Tours are All Inclusive Packages, in short, Travelling with Bunk Tribe is a Pleasure. As a Traveller of Bunk Tribe, You do not have to think about Booking Cabs, Hotels, Flight Tickets, Food, Places to Visit etc. You Just Enjoy Your Travel. We do all the Arrangements for You. Scroll down to Explore the List of All Upcoming Tours.<br>
+						Scroll down to Explore the List of All our Upcoming Tours to the Most Sought After Exotic Destinations</b></P>
+					<a href="#" class="ctn">Learn more</a>
+				</div>
+				<div class="col image-col">
+					<div class="image-gallery">
+						<img src="./img7.jpg" alt="">
+						<img src="./img8.jpg" alt="">
+						<img src="./img6.jpg" alt="">
+						<img src="./img9.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="footer">
+			<p>123 fifty Avenue, IN 101060,INDIA, | phone:800-123-456 | Email:contact@gmail.com</p>
+			<p>  Travel Enthusist 2022 Outdoor Adventure</p>
+		</section>
+		<script>
+			const menuBtn = document.querySelector('.menu-btn')
+			const navlinks = document.querySelector('.nav-links')
+
+			menuBtn.addEventListener('click',()=>{
+				navlinks.classList.toggle('mobile-menu')
+			})
+		</script>
+</body>
+</html>
